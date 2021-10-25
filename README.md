@@ -3,7 +3,7 @@
 ### Variables
 ```
 cluster_name                                    = "my-cluster"
-cluster_version                                 = "1.15"
+cluster_version                                 = "1.21"
 subnets                                         = ["subnet-00000", "subnet-00000", "subnet-00000"]
 vpc_id                                          = "vpc-0000000000"
 instance_type                                   = "m4.large"

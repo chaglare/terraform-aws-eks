@@ -4,5 +4,5 @@ subnets                                         = ["subnet-e49f38a8", "subnet-01
 vpc_id                                          = "vpc-0af5eb62"
 instance_type                                   = "m4.large"
 asg_max_size                                    = 5
-asg_min_size                                    = 2
+asg_min_size                                    = 3
 region                                          = "us-east-2"

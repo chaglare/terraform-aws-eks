@@ -36,8 +36,8 @@ output "workers_asg_names" {
 
 ### Run below command
 ``` 
-terraform_0.12.19 init
-terraform_0.12.19 plan
-terraform_0.12.19 apply
+terraform_0.13.1 init
+terraform_0.13.1 plan -var-file regions/ohio.tfvars
+terraform_0.13.1 apply -var-file regions/ohio.tfvars
 
 ```
